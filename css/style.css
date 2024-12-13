@@ -11,7 +11,7 @@ body{
 width: 100%;
 height: 50px;
 background-color: rgba(181, 181, 181, 0.8);
-padding-right: 50px;
+padding-right: 20px;
 float: left;
 z-index: 3;
 position: fixed;
@@ -61,7 +61,7 @@ ul,.i-contact,.i-blog,.i-team,.i-prises,.i-services,.i-portfolio,.i-abuot,.i-hom
     list-style: none;
     text-transform: capitalize;
     font-weight: bold ;
-    margin: 8 0 0 0;
+    margin: 8 0 0 10;
 }
 .i-contact{
     margin-right: 5px;
