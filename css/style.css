@@ -8,52 +8,54 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .headerline{
-width: 100%;
-height: 50px;
-background-color: rgba(181, 181, 181, 0.8);
-padding-right: 20px;
-float: left;
-z-index: 3;
-position: fixed;
-box-sizing: border-box;
-top: 0;
-left: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(181, 181, 181, 0.5);
+    padding-right: 25px;
+    margin-right: 25px;
+    z-index: 10;
 
 }
 #fa-house-user{
-    font-size: 25;
-    color: #ffffff;
-    float: left;
-    margin: 12 25;
-   
-    
+    font-weight: 900;
+    color: #fff;
+    font-size: 22px;
+    padding-top: 14px;
+    padding-left: 25px;
 }
 
 input{
+    position: relative;
     width: 240px;
-    height:30px ;
-    color: #7a7a7a;
-    float: left;
-    margin: 9 0;
-    border-radius: 25px;
-    color: #000000;
-    border: #7a7a7a solid 2px;
-   
+    height: 30px;
+    background-color: rgb(250, 250, 252);
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: 0;
 }
 #fa-search{
-    font-size: 16;
-    color: #7a7a7a;
-    float: left;
-    margin: 15 25;
+    font-weight: 900;
     color: rgb(122, 122, 122);
     margin-left: -230;
-   
+    position: absolute;
+    position: absolute;
+    top: 17px;
+    font-size: 15px;
+    margin-left: 40px;
 }
 .div-search{
-    opacity: 0;
+    background-color: #000;
+    opacity: 1;
     box-sizing: border-box;
     position: absolute;
     top: 0;
+}
+.headerline a{
+    color: #ffffff;
+    text-decoration: none;
 }
 ul,.i-contact,.i-blog,.i-team,.i-prises,.i-services,.i-portfolio,.i-abuot,.i-home{
     color: #ffffff;
@@ -62,6 +64,7 @@ ul,.i-contact,.i-blog,.i-team,.i-prises,.i-services,.i-portfolio,.i-abuot,.i-hom
     text-transform: capitalize;
     font-weight: bold ;
     margin: 8 0 0 10;
+
 }
 .i-contact{
     margin-right: 5px;
@@ -1289,7 +1292,7 @@ margin-bottom:20 ;
     height: 50vh;
     padding-top: 30;
     overflow: auto;
-    background-color: #a9ad5f;
+    background-color:#a99f4a;
     text-align: center;
 }
 .last-img{
