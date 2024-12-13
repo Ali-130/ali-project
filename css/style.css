@@ -61,7 +61,7 @@ ul,.i-contact,.i-blog,.i-team,.i-prises,.i-services,.i-portfolio,.i-abuot,.i-hom
     list-style: none;
     text-transform: capitalize;
     font-weight: bold ;
-    margin: 8 0 0 10;
+    margin: 8 0 0 0;
 }
 .i-contact{
     margin-right: 5px;
