@@ -122,6 +122,10 @@ position: relative;
     border-radius: 10px;
     margin-bottom: 5px;
 }
+.choice-list a{
+    color: #000000;
+    text-decoration: none;
+}
 .i-blog:hover .choice-list{ 
     opacity: 1;
     visibility: visible;
